@@ -6,5 +6,5 @@
 
 ## Weekly Learn Lists
 
-- [ ] 学习Google编码规范的[Shell Style](https://google.github.io/styleguide/shellguide.html)部分
+- [x] 学习Google编码规范的[Shell Style](https://google.github.io/styleguide/shellguide.html)部分
 - [ ] 学习MySQL的分布式部署模式，了解shard和noshard部署方式
