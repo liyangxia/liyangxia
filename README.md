@@ -1,6 +1,6 @@
 ## Weekly Task Lists
 
-- [ ] 重构TedVim，尝试自定义配置并完成打包
+- [x] 重构TedVim，尝试自定义配置并完成打包
 - [ ] 找到获取CVE的简单方法，并完善Corkscrew
 - [ ] IF404.ME使用Github Action自动部署，在服务器侧提供简单的WAF和LB
 
