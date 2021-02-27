@@ -6,4 +6,4 @@
 ## Weekly Learn Lists
 
 - [ ] 学习MySQL的分布式部署模式，了解shard和noshard部署方式
-- [ ] 深入学习Ansible
+- [x] 深入学习Ansible
