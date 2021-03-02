@@ -1,6 +1,6 @@
 ## Weekly Task Lists
 
-- [ ] IF404.ME使用Github Action自动部署，在服务器侧提供简单的WAF和LB
+- [ ] 在线笔记本使用Mkdocs重新构建
 
 ## Weekly Learn Lists
 
