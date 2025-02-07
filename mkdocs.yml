@@ -1,0 +1,58 @@
+# Site information
+site_name: NE30104
+site_url: https://liyangxia.com
+copyright: Copyright &copy; 2025 liyangxia.com
+
+# Site theme configuration
+theme:
+  name: material
+  custom_dir: overrides
+
+  language: en
+
+  icon:
+    logo: material/bash
+
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: white
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra:
+  homepage: /
+
+extra_javascript:
+  - javascripts/flag.js
+
+plugins:
+  - blog
+
+nav:
+  - index.md
+  - Blog:
+    - blog/index.md
