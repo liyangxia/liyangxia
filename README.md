@@ -1,5 +1,3 @@
-## Hi there 👋
-
 ```c
 struct about {
   char nickname[10] = "liyangxia";
