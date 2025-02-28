@@ -43,6 +43,10 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+  features:
+    - navigation.indexes
+    - toc.integrate
+
 extra:
   homepage: /
 
@@ -50,7 +54,27 @@ extra_javascript:
   - javascripts/flag.js
 
 plugins:
-  - blog
+  - blog:
+      post_date_format: medium
+      post_url_date_format: yyyy
+      post_url_format: "{slug}"
+      post_slugify_separator: _
+      post_excerpt: required
+      post_excerpt_max_authors: 0
+      post_excerpt_max_categories: 1
+      post_readtime: true
+      post_readtime_words_per_minute: 300
+      archive: true
+      archive_name: Archive
+      archive_date_format: MMMM yyyy
+      archive_url_date_format: yyyy
+      archive_url_format: "{date}"
+      categories: true
+      categories_name: Categories
+      categories_url_format: "{slug}"
+      categories_slugify_separator: _
+      pagination: false
+
 
 nav:
   - index.md
